@@ -1,13 +1,13 @@
-package ru.netology.salesStatistics;
+package ru.netology.stats;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class SalesStatisticsTest {
+public class StatsServiceTest {
 
     @Test
     public void salesSum() {
-        SalesStatistics statistics = new SalesStatistics();
+        StatsService statistics = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
@@ -20,7 +20,7 @@ public class SalesStatisticsTest {
 
     @Test
     public void salesAverage() {
-        SalesStatistics statistics = new SalesStatistics();
+        StatsService statistics = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
@@ -31,7 +31,7 @@ public class SalesStatisticsTest {
 
     @Test
     public void salesMax() {
-        SalesStatistics statistics = new SalesStatistics();
+        StatsService statistics = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
@@ -42,7 +42,7 @@ public class SalesStatisticsTest {
 
     @Test
     public void salesMin() {
-        SalesStatistics statistics = new SalesStatistics();
+        StatsService statistics = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
@@ -53,7 +53,7 @@ public class SalesStatisticsTest {
 
     @Test
     public void salesLowAverage() {
-        SalesStatistics statistics = new SalesStatistics();
+        StatsService statistics = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
@@ -64,7 +64,7 @@ public class SalesStatisticsTest {
 
     @Test
     public void salesUpperAverage() {
-        SalesStatistics statistics = new SalesStatistics();
+        StatsService statistics = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
